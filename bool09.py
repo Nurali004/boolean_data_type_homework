@@ -7,4 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return a >=0
+
+a=int(input("sonni kiriting:"))
+print(main(a))
