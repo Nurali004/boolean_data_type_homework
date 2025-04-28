@@ -7,4 +7,7 @@ def main(a):
         bool
     """
     # Write your code here
-    return 
+    return (a**0.5)**2 ==a
+
+a=int(input("sonni kiriting:"))
+print(main(a))
