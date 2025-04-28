@@ -8,4 +8,9 @@ def main(a,b):
         bool
     """
     # Write your code here
-    return 
+    return a==b
+
+a=int(input("sonni kiriting:"))
+b=int(input("sonni kiriting:"))
+print(main(a,b))
+
